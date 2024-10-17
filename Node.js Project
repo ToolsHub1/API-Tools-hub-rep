@@ -1,0 +1,11 @@
+mkdir ReputationManagementAPI
+cd ReputationManagementAPI
+npm init -y
+npm install express axios dotenv
+
+ReputationManagementAPI
+├── controllers       # Contains logic for each service
+├── routes            # Defines API routes
+├── services          # Utility services
+├── .env              # Contains sensitive credentials (API keys, etc.)
+└── app.js            # Main application file
